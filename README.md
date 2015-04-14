@@ -70,7 +70,7 @@ $ sudo npm install -g pm2
 	# or
 	$ node app.js
 	```
-See [common issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues) if you have any problems...
+> See [common issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues) if you have any problems...
 
 2. Go to your favorite web browser and enter your app's server url
 	+ example url: `http://192.168.1.29:1337`
@@ -103,19 +103,17 @@ response
 
 ##**Update user to super admin**
 ``` javascript
-	db.users.update(
-	{_
-		id: ObjectId("")
-	},
+db.users.update(
+	{ _id: ObjectId("") },
 	{
-		userinfo...
+		// userinfo ...
 		userType: 'sa'	
-	})
+	});
 ```
 
 ##**How to make tag versions**
- before commiting changes!!!!!!!!!
- modify config.base.js -> version, description
+ > before commiting changes!!!!!!!!!
+ > modify config.base.js -> version, description
 ```sh
  # commit changes
  $ commit -m "my commit"
