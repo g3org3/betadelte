@@ -89,6 +89,7 @@ $ sudo npm install -g pm2
 ##**Creating Users** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 To create a user you need to run an api call **user_register**
 > Request
+
 ``` javascript
 	// example params
 	params: {
@@ -100,9 +101,8 @@ To create a user you need to run an api call **user_register**
 	// make request
 	GET /tilidom/tilidrive-api/user_register
 ```
-
-
 > Response
+
 ``` javascript
 {
     "message": "User was successfully registered",
