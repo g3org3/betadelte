@@ -62,13 +62,15 @@ $ sudo npm install -g pm2
 ```
 
 ##**First time starting the app**
-1. To start the app just enter the commando below:
-	```
+1. To start the app just type the following command:
+	``` sh
+	# tilidom_node/
 	$ sails lift
 	```
 or
-	```
-	$ node app
+	``` sh
+	# tilidom_node/
+	$ node app.js
 	```
 See subtopic common issues if you have any problems...
 
