@@ -19,7 +19,7 @@ You need to install the following software in your server:
 + [imagemagick](http://www.imagemagick.org)
 + [librsync and librsync-devel](http://www.howtoinstall.co/en/ubuntu/trusty/main/librsync-dev/) [(rdiff)](https://www.npmjs.com/package/rdiff)
 
-##**Post-Install**
+##**Post-Install** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 
 1. Clone repo
 	``` sh
