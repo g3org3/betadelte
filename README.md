@@ -27,15 +27,19 @@ You need to install the following software in your server:
 	$ git clone [repo_node]
 	$ cd repo_node
 	```
+2. Install npm modules
+	``` sh
+	$ sudo npm install
+	```
 
-2. Copy config base file
+3. Copy config base file
 	``` sh
 	$ cp config/config.base.js config/config.js
 	# or
 	$ make config
 	```
 
-3. Edit config/config.js with your custom configurations.
+4. Edit config/config.js with your custom configurations.
 	+ change host to server's ip
 	+ change db name
 	+ change port
@@ -51,7 +55,7 @@ You need to install the following software in your server:
 		}
 	}
 	```
-4. Install sails cli
+5. Install sails cli
 ``` sh
 	$ sudo npm install -g sails
 ```
