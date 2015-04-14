@@ -1,4 +1,4 @@
-# Guide - tilidom_node [![version](https://img.shields.io/badge/version-v0.2.6-brightgreen.svg?style=flat-square)]()
+# Guide - tilidom_node [![version](https://img.shields.io/badge/version-v0.2.6-brightgreen.svg?style=flat)]()
 
 ## Index
 1. [Installation](https://github.com/g3org3/betadelte/blob/master/README.md#installation)
