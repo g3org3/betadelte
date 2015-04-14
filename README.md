@@ -75,25 +75,27 @@ $ sudo npm install -g pm2
 2. Go to your favorite web browser and enter your app's server url
 	+ example url: `http://192.168.1.29:1337`
 	+ initialize the application
+
 		```
 		http://192.168.1.29:1337/initialize
-		http://HOST:PORT/initialize
 		```
 	+ Now you're able to interact with the application :D
 
 
 ##**Creating Users**
 To create a user you need to run an api call **user_register**
-e.g.
 ``` javascript
+	// example params
 	params: {
 		username: 'example@domain.com',
 		password: 'pass1234',
 		accept_terms: 1
 	}
+	
+	// make request
 	GET /tilidom/tilidrive-api/user_register
 ```
-response
+> Response
 ``` javascript
 {
     "message": "User was successfully registered",
@@ -104,7 +106,7 @@ response
 ##**Update user to super admin**
 ``` javascript
 db.users.update(
-	{ _id: ObjectId("") },
+	{ _id: ObjectId("ID") },
 	{
 		// userinfo ...
 		userType: 'sa'	
@@ -112,8 +114,15 @@ db.users.update(
 ```
 
 ##**How to make tag versions**
- > before commiting changes!!!!!!!!!
- > modify config.base.js -> version, description
+ Before commiting changes!
+ 	+ modify config.base.js
+ 		```
+ 		version: {
+			current		: 'v0.2.6', // <= change version
+			description	: 'bug fix: profile image', // <= change description of new version
+			log		: 'logs/version.log'
+		},
+ 		```
 ```sh
  # commit changes
  $ commit -m "my commit"
