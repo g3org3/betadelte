@@ -50,16 +50,14 @@ You need to install the following software in your server:
 	}
 	```
 4. Install sails cli
-
-	```
+	``` sh
 		$ sudo npm install -g sails
 	```
 	
 **_Optional software to run your app_**
-```
+``` sh
 $ sudo npm install -g forever
-```
-```
+# ---- or ----
 $ sudo npm install -g pm2
 ```
 
