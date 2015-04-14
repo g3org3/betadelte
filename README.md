@@ -1,5 +1,5 @@
 #HowTo Guide (tlidom_node)
-___
+
 ## Index
 1. [Installation](https://github.com/g3org3/betadelte/blob/master/README.md#installation)
 2. [Post-Install](https://github.com/g3org3/betadelte/blob/master/README.md#post-install)
@@ -7,7 +7,6 @@ ___
 4. [Creating Users](https://github.com/g3org3/betadelte/blob/master/README.md#creating-users)
 5. [Common Issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues)
 
----
 ##**Installation**
 You need to install the following software in your server:
 + linux distribution [ubuntu, centos, ...]
@@ -18,7 +17,6 @@ You need to install the following software in your server:
 + [imagemagick](http://www.imagemagick.org)
 + [librsync and librsync-devel](http://www.howtoinstall.co/en/ubuntu/trusty/main/librsync-dev/) [(rdiff)](https://www.npmjs.com/package/rdiff)
 
-___
 ##**Post-Install**
 
 1. Clone repo
@@ -62,7 +60,7 @@ $ sudo npm install -g forever
 ```
 $ sudo npm install -g pm2
 ```
----
+
 ##**First time starting the app**
 1. To start the app just enter the commando below:
 	```
@@ -80,7 +78,7 @@ See subtopic common issues if you have any problems...
 		e.g. `http://HOST:PORT/initialize`
 	+ Now you're able to interact with the application :D
 
----
+
 ##**Creating Users**
 To create a user you need to run an api call **user_register**
 e.g.
@@ -100,9 +98,7 @@ response
 }
 ```
 
-
----
-###Common Issues
+##Common Issues
 + First install may cause error because the db does'nt exit, just lift again your app with:
 	`$ sails lift`
 
