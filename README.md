@@ -99,6 +99,26 @@ response
 }
 ```
 
+##**HowToMakeUserSuperAdmin**
+```javscript
+db.users.update(
+{_
+	id: ObjectId("")
+},
+{
+	userinfo...
+	userType: 'sa'	
+})
+```
+
+##**HowToMakeTags**
+ before commiting changes!!!!!!!!!
+ modify config.base.js -> version, description
+ commit changes
+> $ make tag
+ push changes
+> $ git push -u origin master --tags
+
 ##Common Issues
 + First install may cause error because the db does'nt exit, just lift again your app with:
 	`$ sails lift`
