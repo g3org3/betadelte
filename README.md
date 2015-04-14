@@ -70,10 +70,14 @@ $ sudo npm install -g pm2
 	```
 See [common issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues) if you have any problems...
 
-2. Go to your favorite web browser to your server's url
-	e.g. > `http://192.168.1.100:1337`
+2. Go to your favorite web browser and enter your app's server url
+	+ example url
+		`http://192.168.1.29:1337`
 	+ initialize the application
-		e.g. `http://HOST:PORT/initialize`
+	```
+	http://192.168.1.29:1337/initialize
+	http://HOST:PORT/initialize
+	```
 	+ Now you're able to interact with the application :D
 
 
