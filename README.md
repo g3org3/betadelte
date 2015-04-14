@@ -1,16 +1,21 @@
 #HowTo Guide (tlidom_node)
 ___
 ## Index
+1. Installation
+2. Post-Install
+3. First Run
+3. Creating Users
+3. Common Issues
 ---
-###**Installation**
+##**Installation**
 You need to install the following software in your server:
---- linux distribution
---- git
---- mongodb
---- node
---- npm
---- imagemagick
---- librsync and librsync-devel (rdiff)
++ linux distribution
++ git
++ mongodb
++ node
++ npm
++ imagemagick
++ librsync and librsync-devel (rdiff)
 
 ___
 ####**Post-Install**
@@ -48,7 +53,7 @@ example actions:
 		$ sudo npm install -g sails
 	```
 	
-**--------- Optional Install ---------**
+**_Optional software to run your app_**
 ```
 $ sudo npm install -g forever
 ```
@@ -56,7 +61,7 @@ $ sudo npm install -g forever
 $ sudo npm install -g pm2
 ```
 ---
-####**--- First time lifting app ---**
+##**--- First time lifting app ---**
 1. To lift your app just enter the commando below:
 
 	```
