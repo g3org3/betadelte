@@ -73,17 +73,18 @@ $ sudo npm install -g pm2
 > See [common issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues) if you have any problems...
 
 2. Go to your favorite web browser and enter your app's server url
-	+ example url: `http://192.168.1.29:1337`
-	+ initialize the application
+	+ Example url: `http://192.168.1.29:1337`
+	+ Initialize the application
 
 		```
 		http://192.168.1.29:1337/initialize
 		```
-	+ Now you're able to interact with the application :D
+	+ You've finished installing the app :D
 
 
 ##**Creating Users**
 To create a user you need to run an api call **user_register**
+> Request
 ``` javascript
 	// example params
 	params: {
