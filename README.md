@@ -136,10 +136,11 @@ Before commiting changes!
 ```
 
 ##Common Issues
-+ First install may cause error because the db does'nt exit, just lift again your app with:
++ The first time you start your app could crash, because no db was created before. Start again the application and there should not be an error.
 	`$ sails lift`
 
-+ Trying tu lift at port :80 with no root user will fail, try with sudo instead:
++ Trying start the app at port :80 getting errors?
+	+ you need more priveliges to start your app
 	`$ sudo sails lift`
 
-+ lkasdflkajsfd
++ more soon
