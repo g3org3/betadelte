@@ -115,9 +115,10 @@ db.users.update(
 
 ##**How to make tag versions**
 Before commiting changes!
-	+ modify config.base.js
++ modify config.base.js
+
 	```javascript
- 	version: {
+	version: {
 		current		: 'v0.2.6', // <= change version
 		description	: 'bug fix: profile image', // <= change description of new version
 		log		: 'logs/version.log'
