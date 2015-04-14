@@ -63,7 +63,7 @@ $ sudo npm install -g forever
 $ sudo npm install -g pm2
 ```
 
-##**First time starting the app**
+##**First time starting the app** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 1. To start the app just type the following command:
 	``` sh
 	$ sails lift
@@ -82,7 +82,7 @@ $ sudo npm install -g pm2
 	+ You've finished installing the app :D
 
 
-##**Creating Users**
+##**Creating Users** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 To create a user you need to run an api call **user_register**
 > Request
 ``` javascript
@@ -104,7 +104,7 @@ To create a user you need to run an api call **user_register**
 }
 ```
 
-##**Update user to super admin**
+##**Update user to super admin** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 ``` javascript
 db.users.update(
 	{ _id: ObjectId("ID") },
@@ -114,7 +114,7 @@ db.users.update(
 	});
 ```
 
-##**How to make tag versions**
+##**How to make tag versions** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 Before commiting changes!
 + modify config.base.js
 
@@ -136,7 +136,7 @@ Before commiting changes!
  $ git push -u origin master --tags
 ```
 
-##Common Issues
+##Common Issues [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 + The first time you start your app could crash, because no db was created before. Start again the application and there should not be an error.
 	`$ sails lift`
 
