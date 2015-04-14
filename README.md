@@ -22,12 +22,13 @@ ___
 ####**Post-Install**
 
 1. Clone repo
-	```
+	``` sh
+	# cd to your destination parent folder
 	$ git clone [repo_node]
 	```
 
 2. Copy config base file
-	```
+	``` sh
 	$ cd [repo_node]
 	$ cp config/config.base.js config/config.js
 	```
