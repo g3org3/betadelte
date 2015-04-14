@@ -96,10 +96,10 @@ To create a user you need to run an api call **user_register**
 		password: 'pass1234',
 		accept_terms: 1
 	}
-	
 	// make request
 	GET /tilidom/tilidrive-api/user_register
 ```
+
 > Response
 ``` javascript
 {
