@@ -23,13 +23,13 @@ You need to install the following software in your server:
 	``` sh
 	# cd to your destination parent folder
 	$ git clone [repo_node]
+	$ cd repo_node
 	```
 
 2. Copy config base file
 	``` sh
-	# tilidom_node
 	$ cp config/config.base.js config/config.js
-	or
+	# or
 	$ make config
 	```
 
@@ -50,29 +50,25 @@ You need to install the following software in your server:
 	}
 	```
 4. Install sails cli
-	``` sh
-		$ sudo npm install -g sails
-	```
+``` sh
+	$ sudo npm install -g sails
+```
 	
 **_Optional software to run your app_**
 ``` sh
 $ sudo npm install -g forever
-# ---- or ----
+# or
 $ sudo npm install -g pm2
 ```
 
 ##**First time starting the app**
 1. To start the app just type the following command:
 	``` sh
-	# tilidom_node/
 	$ sails lift
-	```
-or
-	``` sh
-	# tilidom_node/
+	# or
 	$ node app.js
 	```
-See subtopic common issues if you have any problems...
+See [common issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues) if you have any problems...
 
 2. Go to your favorite web browser to your server's url
 	e.g. > `http://192.168.1.100:1337`
