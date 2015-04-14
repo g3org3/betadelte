@@ -5,8 +5,8 @@
 2. [Post-Install](https://github.com/g3org3/betadelte/blob/master/README.md#post-install)
 3. [First Run](https://github.com/g3org3/betadelte/blob/master/README.md#first-time-starting-the-app)
 4. [Creating Users](https://github.com/g3org3/betadelte/blob/master/README.md#creating-users)
-5. [Make Versions](https://github.com/g3org3/betadelte/blob/master/README.md#how-to-make-tag-versions) 
-6. [Super Admin](https://github.com/g3org3/betadelte/blob/master/README.md#update-user-to-super-admin)
+5. [Super Admin](https://github.com/g3org3/betadelte/blob/master/README.md#update-user-to-super-admin)
+6. [Make Versions](https://github.com/g3org3/betadelte/blob/master/README.md#how-to-make-tag-versions) 
 7. [Common Issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues)
 
 ##**Installation**
