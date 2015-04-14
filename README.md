@@ -27,12 +27,14 @@ You need to install the following software in your server:
 
 2. Copy config base file
 	``` sh
-	$ cd [repo_node]
+	# tilidom_node
 	$ cp config/config.base.js config/config.js
+	or
+	$ make config
 	```
 
-3. Edit config/config.js with your custom configurations
-example actions:
+3. Edit config/config.js with your custom configurations.
+	+ change host to server's ip
 	+ change db name
 	+ change port
 	``` javascript
