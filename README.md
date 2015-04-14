@@ -2,10 +2,10 @@
 ___
 ## Index
 1. [Installation](https://github.com/g3org3/betadelte/blob/master/README.md#installation)
-2. Post-Install
-3. First Run
-4. Creating Users
-5. Common Issues
+2. [Post-Install](https://github.com/g3org3/betadelte/blob/master/README.md#post-install)
+3. [First Run](https://github.com/g3org3/betadelte/blob/master/README.md#post-install)
+4. [Creating Users](https://github.com/g3org3/betadelte/blob/master/README.md#post-install)
+5. [Common Issues](https://github.com/g3org3/betadelte/blob/master/README.md#post-install)
 
 ---
 ##**Installation**
