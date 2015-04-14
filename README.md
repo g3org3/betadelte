@@ -10,16 +10,16 @@ ___
 ---
 ##**Installation**
 You need to install the following software in your server:
-+ linux distribution
-+ git
-+ mongodb
-+ node
-+ npm
-+ imagemagick
-+ librsync and librsync-devel (rdiff)
++ linux distribution [ubuntu, centos, ...]
++ [git](http://git-scm.com)
++ [mongodb](https://www.mongodb.org)
++ [node](https://nodejs.org)
++ [npm](https://nodejs.org)
++ [imagemagick](http://www.imagemagick.org)
++ [librsync and librsync-devel](http://www.howtoinstall.co/en/ubuntu/trusty/main/librsync-dev/) [(rdiff)](https://www.npmjs.com/package/rdiff)
 
 ___
-####**Post-Install**
+##**Post-Install**
 
 1. Clone repo
 	``` sh
