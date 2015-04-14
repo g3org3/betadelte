@@ -4,8 +4,9 @@ ___
 1. Installation
 2. Post-Install
 3. First Run
-3. Creating Users
-3. Common Issues
+4. Creating Users
+5. Common Issues
+
 ---
 ##**Installation**
 You need to install the following software in your server:
@@ -61,11 +62,14 @@ $ sudo npm install -g forever
 $ sudo npm install -g pm2
 ```
 ---
-##**--- First time lifting app ---**
-1. To lift your app just enter the commando below:
-
+##**First time starting the app**
+1. To start the app just enter the commando below:
 	```
 	$ sails lift
+	```
+or
+	```
+	$ node app
 	```
 See subtopic common issues if you have any problems...
 
@@ -76,7 +80,7 @@ See subtopic common issues if you have any problems...
 	+ Now you're able to interact with the application :D
 
 ---
-####**--- Creating Users ---**
+##**Creating Users**
 To create a user you need to run an api call **user_register**
 e.g.
 ``` javascript
