@@ -102,24 +102,30 @@ response
 ```
 
 ##**Update user to super admin**
-```javscript
-db.users.update(
-{_
-	id: ObjectId("")
-},
-{
-	userinfo...
-	userType: 'sa'	
-})
+``` javascript
+	db.users.update(
+	{_
+		id: ObjectId("")
+	},
+	{
+		userinfo...
+		userType: 'sa'	
+	})
 ```
 
 ##**How to make tag versions**
  before commiting changes!!!!!!!!!
  modify config.base.js -> version, description
- commit changes
-> $ make tag
- push changes
-> $ git push -u origin master --tags
+```sh
+ # commit changes
+ $ commit -m "my commit"
+ 
+ # create tag
+ $ make tag
+ 
+ # push changes
+ $ git push -u origin master --tags
+```
 
 ##Common Issues
 + First install may cause error because the db does'nt exit, just lift again your app with:
