@@ -1,13 +1,13 @@
 # Guide - tilidom_node [![version](https://img.shields.io/badge/version-v0.2.6-brightgreen.svg?style=flat)]()
 
 ## Index
-1. [Installation](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#installation)
-2. [Post-Install](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#post-install-)
-3. [First Run](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#first-time-starting-the-app-)
-4. [Creating Users](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#creating-users-)
-5. [Super Admin](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#update-user-to-super-admin-)
-6. [Make Versions](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#how-to-make-tag-versions-) 
-7. [Common Issues](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#common-issues-)
+1. [Installation](https://github.com/g3org3/betadelte/blob/master/README.md#installation)
+2. [Post-Install](https://github.com/g3org3/betadelte/blob/master/README.md#post-install-)
+3. [First Run](https://github.com/g3org3/betadelte/blob/master/README.md#first-time-starting-the-app-)
+4. [Creating Users](https://github.com/g3org3/betadelte/blob/master/README.md#creating-users-)
+5. [Super Admin](https://github.com/g3org3/betadelte/blob/master/README.md#update-user-to-super-admin-)
+6. [Make Versions](https://github.com/g3org3/betadelte/blob/master/README.md#how-to-make-tag-versions-) 
+7. [Common Issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues-)
 
 ##**Installation**
 You need to install the following software in your server:
@@ -19,7 +19,7 @@ You need to install the following software in your server:
 + [imagemagick](http://www.imagemagick.org)
 + [librsync and librsync-devel](http://www.howtoinstall.co/en/ubuntu/trusty/main/librsync-dev/) [(rdiff)](https://www.npmjs.com/package/rdiff)
 
-##**Post-Install** [^](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#index)
+##**Post-Install** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 
 1. Clone repo
 
@@ -68,14 +68,14 @@ $ sudo npm install -g forever
 $ sudo npm install -g pm2
 ```
 
-##**First time starting the app** [^](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#index)
+##**First time starting the app** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 1. To start the app just type the following command:
 	``` sh
 	$ sails lift
 	# or
 	$ node app.js
 	```
-> See [common issues](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#common-issues) if you have any problems...
+> See [common issues](https://github.com/g3org3/betadelte/blob/master/README.md#common-issues) if you have any problems...
 
 2. Go to your favorite web browser and enter your app's server url
 	+ Example url: `http://192.168.1.29:1337`
@@ -87,7 +87,7 @@ $ sudo npm install -g pm2
 	+ You've finished installing the app :D
 
 
-##**Creating Users** [^](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#index)
+##**Creating Users** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 To create a user you need to run an api call **user_register**
 > Request
 
@@ -111,7 +111,7 @@ To create a user you need to run an api call **user_register**
 }
 ```
 
-##**Update user to super admin** [^](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#index)
+##**Update user to super admin** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 ``` javascript
 db.users.update(
 	{ _id: ObjectId("ID") },
@@ -121,7 +121,7 @@ db.users.update(
 	});
 ```
 
-##**How to make tag versions** [^](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#index)
+##**How to make tag versions** [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 Before commiting changes!
 + modify config.base.js
 
@@ -143,7 +143,7 @@ Before commiting changes!
  $ git push -u origin master --tags
 ```
 
-##Common Issues [^](https://github.com/Xik/tilidom_node/blob/master/ReadMeInstallGuide.md#index)
+##Common Issues [^](https://github.com/g3org3/betadelte/blob/master/README.md#index)
 + The first time you start your app could crash, because no db was created before. Start again the application and there should not be an error.
 	`$ sails lift`
 
